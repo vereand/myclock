@@ -59,8 +59,8 @@ body{
     background-color: black;
     clip-path: circle(50% at 50% 50%);
     position: relative;
-    top: 49.4%;
-    left: 48.5%;
+    top: 49.25%;
+    left: 48.6%;
 }
 @media screen and (max-width:900px) {
     .contaner {
