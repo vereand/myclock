@@ -26,6 +26,14 @@ body{
     border-radius: 10px;
 }
 
+#hour {
+    width: 1%;
+    height: 20%;
+    top: 30.5%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
 #minute {
     width: 1%;
     height: 23%;
@@ -53,16 +61,6 @@ body{
     position: relative;
     top: 49.4%;
     left: 48.5%;
-}
-
-#second {
-    width: 1%;
-    height: 26%;
-    top: 24.1%;
-    left: 49.5%;
-    background-color: rgb(15, 13, 17);
-    transform-origin: bottom;
-
 }
 @media screen and (max-width:900px) {
     .contaner {
