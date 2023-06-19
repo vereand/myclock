@@ -64,7 +64,7 @@ body{
     transform-origin: bottom;
 
 }
-@media screen and (max-width:1700px) {
+@media screen and (max-width:900px) {
     .contaner {
         position: relative;
         /* background-color: rgb(116, 116, 244); */
