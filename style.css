@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.contaner {
+    position: relative;
+    /* background-color: rgb(116, 116, 244); */
+    height: 40vw;
+    width: 40vw;
+    background-image: url('clockimg.png');
+    background-size: 100%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+     background-color: rgb(15, 13, 17);
+    border-radius: 10px;
+}
+
+#hour {
+    width: 1%;
+    height: 20%;
+    top: 30.5%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
+#minute {
+    width: 1%;
+    height: 23%;
+    top: 27%;
+    left: 49.5%;
+    background-color: rgb(15, 13, 17);
+    transform-origin: bottom;
+
+}
+
+#second {
+    width: 1%;
+    height: 26%;
+    top: 24.1%;
+    left: 49.5%;
+    background-color: rgb(15, 13, 17);
+    transform-origin: bottom;
+
+}
